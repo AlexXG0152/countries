@@ -1,0 +1,5 @@
+<section class="d-flex flex-row ">
+  <div class="mt-3" *ngFor="let letter of alphabet">
+    <button type="button" class="letter btn btn-outline-dark" (click)="filter(letter)">{{letter}}</button>
+  </div>
+</section>
