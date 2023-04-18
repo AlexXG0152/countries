@@ -17,7 +17,7 @@ export class SearchService {
     return this.http.get<Country[]>(this.countriesJSON);
   }
 
-  public getCountry(id: string) {
+  public getCountryByCCA3(id: string) {
     return this.http
       .get<Country[]>(this.countriesJSON)
       .pipe(

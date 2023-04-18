@@ -29,7 +29,7 @@ export class ResultComponent implements OnInit {
   }
 
   getCountryInfoByCCA3(id: string) {
-    this.searchService.getCountry(id).subscribe((data) => {
+    this.searchService.getCountryByCCA3(id).subscribe((data) => {
       this.country = data!;
       this.router.navigate([`/results/${id}`]);
     });
@@ -45,9 +45,11 @@ export class ResultComponent implements OnInit {
   goBack(): Promise<boolean> | undefined {
     // this.navigation.back();
     this.navigation.history.pop();
+
     if (this.navigation.history.at(-1) === undefined) {
       return this.router.navigate([`/results`]);
     }
+
     const id = this.navigation.history.at(-1)!.slice(-3);
 
     if (
@@ -56,13 +58,13 @@ export class ResultComponent implements OnInit {
     ) {
       return this.router.navigate([`/results`]);
     } else {
-      this.navigation.history.pop();
-      if (this.navigation.history.at(-1)!.slice(-3).length === 2) {
-        this.getCountryInfoByCCA2(id);
+      if (this.navigation.history.at(-1)!.slice(-3)!.startsWith('/')) {
+        this.getCountryInfoByCCA2(this.navigation.history.at(-1)!.slice(-2)!);
+        this.navigation.history.pop();
       } else {
         this.getCountryInfoByCCA3(id);
+        this.navigation.history.pop();
       }
-      // this.getCountryInfo(id);
       return;
     }
   }
