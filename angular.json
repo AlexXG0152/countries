@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/countries",
+            "outputPath": "dist/countries/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -106,6 +106,60 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy"
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/countries/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json",
+            "inlineStyleLanguage": "scss"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media"
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false,
+              "vendorChunk": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "countries:build:development",
+              "serverTarget": "countries:server:development"
+            },
+            "production": {
+              "browserTarget": "countries:build:production",
+              "serverTarget": "countries:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "countries:build:production",
+              "serverTarget": "countries:server:production"
+            },
+            "development": {
+              "browserTarget": "countries:build:development",
+              "serverTarget": "countries:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

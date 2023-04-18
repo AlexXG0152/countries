@@ -26,7 +26,7 @@ import { LoadScriptDirective } from './directives/load-script.directive';
     MapComponent,
     LoadScriptDirective,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
+  imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [BackButtonDirective, LoadScriptDirective],

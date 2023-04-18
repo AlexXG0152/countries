@@ -1,21 +1,11 @@
 # Countries
 
-Working example (better use Chrome)
-https://643e72623ec11538d50d2c61--zingy-blancmange-2b30a1.netlify.app/
+Working example:
+https://643e7b0f96f371000780ebf0--zingy-blancmange-2b30a1.netlify.app/map
 
 P.S. Some issues in router with navigation from map to country info on localhost in dev mode all works perfectly. 😉
 
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://github.com/AlexXG0152/countries/blob/start-app/src/assets/Countries%20-%20DEMO.gif" width="1000"/>
 
 ## Development server
 
