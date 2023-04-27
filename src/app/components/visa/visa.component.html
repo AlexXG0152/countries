@@ -4,9 +4,7 @@
       Dropdown button 1
     </button>
     <ul class="dropdown-menu" id="from">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li *ngFor="let item of countriesList | keyvalue"><a class="dropdown-item" href="#">{{item.key}}</a></li>
     </ul>
   </div>
 
@@ -15,9 +13,11 @@
       Dropdown button 2
     </button>
     <ul class="dropdown-menu" id="to">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li *ngFor="let item of countriesList | keyvalue"><a class="dropdown-item" href="#">{{item.key}}</a></li>
     </ul>
   </div>
+
+  <button class="ms-3 btn " type="submit" (click)="getDataByCode()">Search</button>
+
 </div>
+<!-- searchBox.value -->
