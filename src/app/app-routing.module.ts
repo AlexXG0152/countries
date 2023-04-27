@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ResultsComponent } from './components/results/results.component';
 import { ResultComponent } from './components/result/result.component';
 import { MapComponent } from './components/map/map.component';
+import { VisaComponent } from './components/visa/visa.component';
 
 const routes: Routes = [
   {
@@ -13,14 +14,17 @@ const routes: Routes = [
   },
   { path: 'results/:id', pathMatch: 'full', component: ResultComponent },
   { path: 'map', pathMatch: 'full', component: MapComponent },
+  { path: 'visa', pathMatch: 'full', component: VisaComponent },
   { path: '', pathMatch: 'full', redirectTo: 'results' }, //
   { path: '**', component: ResultsComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {
-    initialNavigation: 'enabledBlocking'
-})],
+  imports: [
+    RouterModule.forRoot(routes, {
+      initialNavigation: 'enabledBlocking',
+    }),
+  ],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}

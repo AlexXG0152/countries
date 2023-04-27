@@ -13,6 +13,7 @@ import { BackButtonDirective } from './directives/backbutton.directive';
 import { AlphabetComponent } from './components/alphabet/alphabet.component';
 import { MapComponent } from './components/map/map.component';
 import { LoadScriptDirective } from './directives/load-script.directive';
+import { VisaComponent } from './components/visa/visa.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { LoadScriptDirective } from './directives/load-script.directive';
     BackButtonDirective,
     AlphabetComponent,
     MapComponent,
+    VisaComponent,
     LoadScriptDirective,
   ],
   imports: [BrowserModule.withServerTransition({ appId: 'serverApp' }), AppRoutingModule, HttpClientModule, FormsModule],
