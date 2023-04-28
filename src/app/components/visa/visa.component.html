@@ -1,34 +1,103 @@
-<div class="btn-group mt-3">
+<div class="btn-group my-3">
   <div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Citizenship &emsp;&emsp;&emsp;
+    <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+      aria-expanded="false">
       {{citizenship}}
     </button>
-    <ul class="dropdown-menu" id="from">
-      <li *ngFor="let item of countriesList | keyvalue: keepOrder"><a class="dropdown-item"
-          (click)="getDataByCode(item)">{{item.value}}</a></li>
+    <ul class="dropdown-menu">
+      <li *ngFor="let item of countriesList | keyvalue: keepOrder">
+        <ng-template *ngIf="!item.value; else elseBlock">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </ng-template>
+        <ng-template #elseBlock>
+          <a class="dropdown-item" (click)="getDataByCode(item)">{{item.value}}</a>
+        </ng-template>
+      </li>
     </ul>
   </div>
+
+  <div class="dropdown ms-5">
+    Travel Destination &emsp;&emsp;&emsp;
+    <button class="btn btn-outline-primary dropdown-toggled" type="button" data-bs-toggle="dropdown"
+      aria-expanded="false" [disabled]="!enableDestinationButton">
+      {{travelDestination}}
+    </button>
+    <ul class="dropdown-menu">
+      <li *ngFor="let item of countriesList | keyvalue: keepOrder">
+        <ng-template *ngIf="!item.value; else elseBlock">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </ng-template>
+        <ng-template #elseBlock>
+          <a class="dropdown-item" (click)="filterDestinationArray(item)">{{item.value}}</a>
+        </ng-template>
+      </li>
+    </ul>
+  </div>
+
   <!-- <button class="ms-3 btn " type="submit" (click)="getDataByCode($event)">Search searchBox.value</button> -->
 </div>
 
-<div class="d-flex justify-content-center ms-7" *ngIf="citizenship !== 'Specify your citizenship'">
-  <h2>Citizenship &emsp;&emsp;&emsp;<span class="badge bg-secondary">{{citizenship}}</span></h2>
+<div class="d-flex justify-content-evenly my-7" *ngIf="citizenship !== 'Specify your citizenship'">
+  <h2>Citizenship &emsp;&emsp;&emsp;<span class="badge bg-secondary ms-3">{{citizenship | uppercase}}</span></h2>
+  <h2 *ngIf="travelDestination !== 'Travel destination'">Travel Destination &emsp;&emsp;&emsp;<span
+      class="badge bg-secondary ms-3">{{travelDestination | uppercase}}</span></h2>
 </div>
 
-<table class="table mt-3" *ngIf="tableColumnsName?.length > 0">
-  <thead>
-    <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
-      <ng-container *ngIf="i === 0">
-        <th scope="row">#</th>
-        <th *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.key}}</th>
-      </ng-container>
-    </tr>
-  </thead>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+    <path
+      d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z">
+    </path>
+  </symbol>
+</svg>
 
-  <tbody class="table-group-divider">
-    <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
-      <th scope="row">{{i + 1}}</th>
-      <td *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.value | replace}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="alert alert-info mt-2" role="alert"
+  *ngIf="citizenship !== 'Specify your citizenship' && visaRequirementsData !== null">
+  <h3><svg class="bi flex-shrink-0 me-2 mb-1 ps-5" role="img" aria-label="Danger:" style="width: 30px; height: 30px;">
+      <use xlink:href="#exclamation-triangle-fill"></use>
+    </svg>Before you start traveling, be sure to <a href="{{googleQuery}}" target="_blank" class="alert-link">check and
+      look into </a> additional information</h3>
+</div>
+
+<div *ngIf="visaRequirementsData !== null; else googleBlock">
+  <table class="table mt-3">
+    <thead>
+      <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
+        <ng-container *ngIf="i === 0">
+          <th scope="row">#</th>
+          <th *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.key}}</th>
+        </ng-container>
+      </tr>
+    </thead>
+
+    <tbody class="table-group-divider">
+      <ng-container *ngIf="!travelDestination">
+        <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
+          <th scope="row">{{i + 1}}</th>
+          <td *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.value | replace}}</td>
+        </tr>
+      </ng-container>
+      <ng-container *ngIf="travelDestination">
+        <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
+          <th scope="row">{{i + 1}}</th>
+          <td *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.value | replace}}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>
+
+<ng-template #googleBlock>
+  <div class="alert alert-info mt-2" role="alert">
+    <h2>So far, we do not have information in the system for your request, but you can find more information at this <a
+        href="{{googleQuery}}" target="_blank" class="alert-link">link</a> and / or leave a <a
+        href="https://github.com/AlexXG0152/countries/issues/new" target="_blank" class="alert-link">request</a> to
+      supplement the system.
+    </h2>
+  </div>
+</ng-template>
