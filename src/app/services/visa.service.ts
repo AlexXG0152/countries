@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root',
@@ -15,6 +16,10 @@ export class VisaService {
   }
 
   getDataByCode(code: string) {
+    return this.http.get(`${this.base_link_for_visa_data}${code}.json`);
+  }
+
+  getOneByCode(code: string) {
     return this.http.get(`${this.base_link_for_visa_data}${code}.json`);
   }
 }

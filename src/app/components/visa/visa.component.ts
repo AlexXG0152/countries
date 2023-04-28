@@ -15,7 +15,10 @@ export class VisaComponent implements OnInit {
   countriesList?: any = [];
   visaRequirementsData?: any = [];
   tableColumnsName: any = [];
+
   citizenship? = 'Specify your citizenship';
+  citizenshipCode = '';
+  travelDestination? = 'Travel destination';
 
   ngOnInit(): void {
     this.visaService.getCountriesList().subscribe((data) => {
@@ -34,11 +37,32 @@ export class VisaComponent implements OnInit {
   }
 
   getDataByCode(citizenship: any) {
+    this.travelDestination = 'Travel destination';
     this.citizenship = citizenship.value;
+    this.citizenshipCode = citizenship.key;
+
     this.visaService.getDataByCode(citizenship.key).subscribe((data) => {
       this.visaRequirementsData = data;
       this.tableColumnsName = Object.keys(Object.values(data)[0]).sort();
     });
+  }
+
+  filterDestinationArray(destination: any) {
+    this.travelDestination = destination.value;
+    this.visaRequirementsData = null;
+
+    this.visaService
+      .getOneByCode(this.citizenshipCode)
+      .subscribe((item: any) => {
+        for (const key in item) {
+          if (item[key]['Country']! === destination.value) {
+            this.visaRequirementsData = { 0: item[key] };
+            return;
+          }
+        }
+      });
+
+    // this.tableColumnsName = Object.keys(Object.values(this.visaRequirementsData)).sort();
   }
 
   keepOrder = (a: any, b: any) => {
