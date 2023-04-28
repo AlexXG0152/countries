@@ -1,23 +1,34 @@
 <div class="btn-group mt-3">
   <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button 1
+      {{citizenship}}
     </button>
     <ul class="dropdown-menu" id="from">
-      <li *ngFor="let item of countriesList | keyvalue"><a class="dropdown-item" href="#">{{item.key}}</a></li>
+      <li *ngFor="let item of countriesList | keyvalue: keepOrder"><a class="dropdown-item"
+          (click)="getDataByCode(item)">{{item.value}}</a></li>
     </ul>
   </div>
-
-  <div class="dropdown  ms-3">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button 2
-    </button>
-    <ul class="dropdown-menu" id="to">
-      <li *ngFor="let item of countriesList | keyvalue"><a class="dropdown-item" href="#">{{item.key}}</a></li>
-    </ul>
-  </div>
-
-  <button class="ms-3 btn " type="submit" (click)="getDataByCode()">Search</button>
-
+  <!-- <button class="ms-3 btn " type="submit" (click)="getDataByCode($event)">Search searchBox.value</button> -->
 </div>
-<!-- searchBox.value -->
+
+<div class="d-flex justify-content-center ms-7" *ngIf="citizenship !== 'Specify your citizenship'">
+  <h2>Citizenship &emsp;&emsp;&emsp;<span class="badge bg-secondary">{{citizenship}}</span></h2>
+</div>
+
+<table class="table mt-3" *ngIf="tableColumnsName?.length > 0">
+  <thead>
+    <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
+      <ng-container *ngIf="i === 0">
+        <th scope="row">#</th>
+        <th *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.key}}</th>
+      </ng-container>
+    </tr>
+  </thead>
+
+  <tbody class="table-group-divider">
+    <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
+      <th scope="row">{{i + 1}}</th>
+      <td *ngFor="let data of country.value! | keyvalue: keepOrder">{{data.value | replace}}</td>
+    </tr>
+  </tbody>
+</table>

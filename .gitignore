@@ -1,6 +1,7 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 *.spec.ts
 .angular
+src/assets/404_states.json
 
 # Compiled output
 /dist
