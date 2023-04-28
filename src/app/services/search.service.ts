@@ -32,4 +32,14 @@ export class SearchService {
         map((countries) => countries.find((country) => country.cca2 === id))
       );
   }
+
+  public getOnlyCountriesNames() {
+    return this.http.get<Country[]>(this.countriesJSON).pipe(
+      map((countries) =>
+        countries.map((country) => {
+          return [country.name.common, country.cca3]
+        })
+      )
+    );
+  }
 }
