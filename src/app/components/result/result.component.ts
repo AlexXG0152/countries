@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
+import { ActivatedRoute, Router, RoutesRecognized } from '@angular/router';
 import { Country } from 'src/app/interfaces/country.interface';
 import { SearchService } from 'src/app/services/search.service';
 import { NavigationService } from 'src/app/services/navigation.service';
+import { filter, pairwise } from 'rxjs/operators';
 
 @Component({
   selector: 'app-result',
@@ -15,9 +16,21 @@ export class ResultComponent implements OnInit {
     private route: ActivatedRoute,
     private searchService: SearchService,
     private navigation: NavigationService
-  ) {}
+  ) {
+    this.router.events
+      .pipe(
+        filter((evt: any) => evt instanceof RoutesRecognized),
+        pairwise()
+      )
+      .subscribe((events: RoutesRecognized[]) => {
+        console.log('previous url', events[0].urlAfterRedirects);
+        console.log('current url', events[1].urlAfterRedirects);
+        this.previousURL = events[0].urlAfterRedirects;
+      });
+  }
 
   country?: Country;
+  previousURL?: string;
 
   ngOnInit(): void {
     const id = this.route.snapshot.params['id'];
@@ -48,6 +61,10 @@ export class ResultComponent implements OnInit {
 
     if (this.navigation.history.at(-1) === undefined) {
       return this.router.navigate([`/results`]);
+    }
+
+    if (this.previousURL = '/visa') {
+      return this.router.navigate([`/visa`]);
     }
 
     const id = this.navigation.history.at(-1)!.slice(-3);

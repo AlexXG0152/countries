@@ -44,8 +44,9 @@
 
 <div class="d-flex justify-content-evenly my-7" *ngIf="citizenship !== 'Specify your citizenship'">
   <h2>Citizenship &emsp;&emsp;&emsp;<span class="badge bg-secondary ms-3">{{citizenship | uppercase}}</span></h2>
-  <h2 *ngIf="travelDestination !== 'Travel destination'">Travel Destination &emsp;&emsp;&emsp;<span
-      class="badge bg-secondary ms-3">{{travelDestination | uppercase}}</span></h2>
+  <h2 *ngIf="travelDestination !== 'Travel destination'">Travel Destination &emsp;&emsp;&emsp;<a
+      [routerLink]="['/results',travelDestinationCode]"><span class="badge bg-secondary ms-3">{{travelDestination |
+        uppercase}}</span></a></h2>
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
