@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  ngOnInit(): void {
-    document
-      .querySelector('html')
-      ?.setAttribute('data-bs-theme', localStorage.getItem('theme')!);
+  ngOnInit() {
+    if (typeof window !== 'undefined') {
+      document
+        .querySelector('html')
+        ?.setAttribute('data-bs-theme', localStorage.getItem('theme')!);
+    }
   }
 
   title = 'countries';

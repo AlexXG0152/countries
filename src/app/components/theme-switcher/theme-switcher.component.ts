@@ -11,27 +11,39 @@ export class ThemeSwitcherComponent implements OnInit {
   mode?: string;
 
   ngOnInit(): void {
-    if (this.themeService.current === 'dark') {
-      document.getElementById('button')!.className = 'radio-inner active';
+    if (typeof window !== 'undefined') {
+      if (this.themeService.current === 'dark') {
+        window.document.getElementById('button')!.className =
+          'radio-inner active';
+      } else {
+        window.document.getElementById('button')!.className = 'radio-inner';
+      }
     } else {
-      document.getElementById('button')!.className = 'radio-inner';
     }
   }
 
   public switchTheme(): void {
     this.mode = this.themeService.current;
-    if (this.themeService.current === 'light') {
-      document.querySelector('html')?.setAttribute('data-bs-theme', 'dark');
-      document.getElementById('button')!.className = 'radio-inner active';
-      this.themeService.theme.next('dark');
-      this.themeService.current = 'dark';
-      this.mode = 'dark';
+    if (typeof window !== 'undefined') {
+      if (this.themeService.current === 'light') {
+        window.document
+          .querySelector('html')
+          ?.setAttribute('data-bs-theme', 'dark');
+        window.document.getElementById('button')!.className =
+          'radio-inner active';
+        this.themeService.theme.next('dark');
+        this.themeService.current = 'dark';
+        this.mode = 'dark';
+      } else {
+        window.document
+          .querySelector('html')
+          ?.setAttribute('data-bs-theme', 'light');
+        window.document.getElementById('button')!.className = 'radio-inner';
+        this.themeService.theme.next('light');
+        this.themeService.current = 'light';
+        this.mode = 'light';
+      }
     } else {
-      document.querySelector('html')?.setAttribute('data-bs-theme', 'light');
-      document.getElementById('button')!.className = 'radio-inner';
-      this.themeService.theme.next('light');
-      this.themeService.current = 'light';
-      this.mode = 'light';
     }
   }
 }

@@ -18,7 +18,7 @@ export class ResultsComponent implements OnInit {
   ) {}
 
   countries: Country[] = [];
-  theme: string = ''
+  theme: string = '';
 
   ngOnInit(): void {
     this.searchService.buttonClickSubject.subscribe((searchText) => {
@@ -36,7 +36,12 @@ export class ResultsComponent implements OnInit {
     searchText: string,
     startsWith: boolean = false
   ): Subscription | undefined {
-    this.theme = document.querySelector('html')?.getAttribute('data-bs-theme')!;
+    if (typeof window !== 'undefined') {
+      this.theme = window.document
+        .querySelector('html')
+        ?.getAttribute('data-bs-theme')!;
+    } else {
+    }
 
     return this.searchService.getCountries().subscribe((data: Country[]) => {
       this.countries = data.filter((country) => {

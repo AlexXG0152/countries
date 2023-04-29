@@ -7,10 +7,13 @@ export class LoadScriptDirective implements OnInit {
   @Input('script') param: any;
 
   ngOnInit() {
-    let node = document.createElement('script');
-    node.src = this.param;
-    node.type = 'text/javascript';
-    node.async = false;
-    document.getElementsByTagName('head')[0].appendChild(node);
+    if (typeof window !== 'undefined') {
+      let node = window.document.createElement('script');
+      node.src = this.param;
+      node.type = 'text/javascript';
+      node.async = false;
+      window.document.getElementsByTagName('head')[0].appendChild(node);
+    } else {
+    }
   }
 }

@@ -15,7 +15,7 @@ export class AlphabetComponent implements OnInit{
   theme?: string = ''
 
   ngOnInit(): void {
-    this.themeService.theme.subscribe(current => {
+    this.themeService.theme?.subscribe((current: string) => {
       this.theme = current!
     })
   }
