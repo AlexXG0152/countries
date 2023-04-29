@@ -1,0 +1,64 @@
+.wrapper {
+  width: 225px;
+  margin-left: 20px;
+}
+
+.text {
+  width: 100px;
+}
+
+.radio-btn {
+  width: 75px;
+  height: 40px;
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #17193a;
+  border-radius: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  background-image:
+    radial-gradient(white, rgba(255, 255, 255, 0.2) -141px, transparent -24px),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) 2px, transparent 8px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 3px, transparent -9px),
+    radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 99px);
+  background-size: 103px 84px, 86px 80px, 66px 60px, 18px 28px;
+  background-position: 0 0, 61px 72px, 30px 94px, 81px 1px;
+}
+
+.radio-btn .radio-inner {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: all 0.6s;
+  background-color: #ffc207;
+}
+
+.radio-btn .radio-inner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -60%;
+  width: 100%;
+  height: 100%;
+  background-color: #27173a;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: all 0.6s;
+
+  background-image:
+    radial-gradient(white, rgba(255, 255, 255, 0.2) 4px, transparent 13px),
+    radial-gradient(white, rgba(255, 255, 255, 0.15) -121px, transparent 30px),
+    radial-gradient(white, rgba(255, 255, 255, 0.1) 3px, transparent 18px),
+    radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent -6px);
+  background-position: 0 0, 40px 60px, 30px 70px, 70px -2px;
+}
+
+.radio-btn .radio-inner.active {
+  transform: translateX(calc(150px - 115px));
+}
+
+.radio-btn .radio-inner.active::before {
+  left: -15px;
+  transform: scale(1);
+}

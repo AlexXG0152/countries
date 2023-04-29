@@ -15,6 +15,7 @@ import { MapComponent } from './components/map/map.component';
 import { LoadScriptDirective } from './directives/load-script.directive';
 import { VisaComponent } from './components/visa/visa.component';
 import { ReplacePipe } from './pipes/replace.pipe';
+import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switcher.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +28,9 @@ import { ReplacePipe } from './pipes/replace.pipe';
     AlphabetComponent,
     MapComponent,
     VisaComponent,
+    ThemeSwitcherComponent,
     LoadScriptDirective,
-    ReplacePipe
+    ReplacePipe,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),

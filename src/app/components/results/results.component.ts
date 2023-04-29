@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { Country } from 'src/app/interfaces/country.interface';
 import { SearchService } from 'src/app/services/search.service';
+import { ThemeService } from 'src/app/services/theme.service';
 
 @Component({
   selector: 'app-results',
@@ -10,9 +11,14 @@ import { SearchService } from 'src/app/services/search.service';
   styleUrls: ['./results.component.scss'],
 })
 export class ResultsComponent implements OnInit {
-  constructor(private router: Router, private searchService: SearchService) {}
+  constructor(
+    private router: Router,
+    private searchService: SearchService,
+    private themeService: ThemeService
+  ) {}
 
   countries: Country[] = [];
+  theme: string = ''
 
   ngOnInit(): void {
     this.searchService.buttonClickSubject.subscribe((searchText) => {
@@ -30,6 +36,8 @@ export class ResultsComponent implements OnInit {
     searchText: string,
     startsWith: boolean = false
   ): Subscription | undefined {
+    this.theme = document.querySelector('html')?.getAttribute('data-bs-theme')!;
+
     return this.searchService.getCountries().subscribe((data: Country[]) => {
       this.countries = data.filter((country) => {
         if (startsWith) {
