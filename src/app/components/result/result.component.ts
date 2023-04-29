@@ -63,9 +63,9 @@ export class ResultComponent implements OnInit {
       return this.router.navigate([`/results`]);
     }
 
-    if (this.previousURL = '/visa') {
-      return this.router.navigate([`/visa`]);
-    }
+    // if (this.previousURL = '/visa') {
+    //   return this.router.navigate([`/visa`]);
+    // }
 
     const id = this.navigation.history.at(-1)!.slice(-3);
 
