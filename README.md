@@ -1,7 +1,7 @@
 # Countries
 
 Working example:
-https://643e7b0f96f371000780ebf0--zingy-blancmange-2b30a1.netlify.app/map
+https://deploy-preview-5--zingy-blancmange-2b30a1.netlify.app/map
 
 P.S. Some issues in router with navigation from map to country info on localhost in dev mode all works perfectly. 😉
 
