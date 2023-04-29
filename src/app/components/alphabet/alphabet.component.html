@@ -1,5 +1,6 @@
-<section class="d-flex flex-row ">
+<section class="d-flex flex-row">
   <div class="mt-3" *ngFor="let letter of alphabet">
-    <button type="button" class="letter btn btn-outline-dark" (click)="filter(letter)">{{letter}}</button>
+    <button type="button" class="letter btn btn-outline-dark" (click)="filter(letter)"
+      [ngStyle]="{'color': theme === 'dark' ? '#ffffff' : 'black', 'border-color': theme === 'dark' ? '#495057' : 'black'}">{{letter}}</button>
   </div>
 </section>

@@ -20,6 +20,7 @@ export class VisaComponent implements OnInit {
   citizenship? = 'Specify your citizenship';
   citizenshipCode = '';
   travelDestination? = 'Travel destination';
+  travelDestinationCode = '';
 
   googleQuery = ``;
   enableDestinationButton?: boolean = false;
@@ -55,6 +56,7 @@ export class VisaComponent implements OnInit {
 
   filterDestinationArray(destination: any) {
     this.travelDestination = destination.value;
+    this.travelDestinationCode = destination.key;
     this.googleQuery = `https://www.google.com/search?q=visa+for+${this.citizenship}+to+${this.travelDestination}`;
     this.visaRequirementsData = null;
 
@@ -67,7 +69,6 @@ export class VisaComponent implements OnInit {
             return;
           }
         }
-        console.log(this.visaRequirementsData);
       });
   }
 
