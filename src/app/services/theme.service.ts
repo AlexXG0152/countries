@@ -6,7 +6,6 @@ import { BehaviorSubject } from 'rxjs/internal/BehaviorSubject';
 })
 export class ThemeService {
   public static default = 'light';
-  // private _alphabet = new BehaviorSubject(localStorage.getItem('theme'));
   public theme: any;
 
   public get current() {
@@ -24,16 +23,10 @@ export class ThemeService {
     }
   }
 
-  // public getAlphabet(): Observable<any> {
-  //   return this._alphabet$;
-  // }
-
   constructor() {
-    // if (localStorage.getItem('theme') !== undefined) {
-      // this.style.href = `/${this.current}.css`;
-    // }
     if (typeof window !== 'undefined') {
       this.theme = new BehaviorSubject(localStorage.getItem('theme'));
-    } else {}
+    } else {
+    }
   }
 }
