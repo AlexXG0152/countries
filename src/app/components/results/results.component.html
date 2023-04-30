@@ -1,8 +1,10 @@
 <div class="mt-3 row row-cols-1 row-cols-md-3 g-4">
   <div class="col" *ngFor="let country of countries">
     <div class="card h-100">
-      <img src="https://flagcdn.com/w320/{{country.cca2 | lowercase}}.png" [attr.alt]="country.name.common" height="187" width="350"
-        class="mt-2 flag mx-auto d-block" [ngStyle]="{'background-color': theme === 'light' ? '#e4e4e4': ''}">
+      <a [routerLink]="['/results', country.cca3]" class="btn btn-link btn-lg link-underline link-underline-opacity-0">
+        <img src="https://flagcdn.com/w320/{{country.cca2 | lowercase}}.png" [attr.alt]="country.name.common"
+          height="187" width="350" class="mt-2 flag mx-auto d-block"
+          [ngStyle]="{'background-color': theme === 'light' ? '#e4e4e4': ''}"></a>
       <div class="card-body">
         <h5 class="card-title">{{country.name.common}}</h5>
         <p class="card-text">English official name: {{country.name.official}}</p>
