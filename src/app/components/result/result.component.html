@@ -74,8 +74,13 @@
           <td>
             <div class="card-text ps-0"
               *ngFor="let language of country?.languages | keyvalue; let first = first; let last = last">
-              <p *ngIf="last">{{language.value}}.</p>
-              <p *ngIf="!last">{{language.value}},&nbsp;</p>
+              <ng-container *ngIf="objectKeys(country?.languages!).length > 1; else one">
+                <p *ngIf="last">{{language.value}}.</p>
+                <p *ngIf="!last">{{language.value}},&nbsp;</p>
+              </ng-container>
+              <ng-template #one>
+                <p>{{language.value}}</p>
+              </ng-template>
             </div>
           </td>
         </tr>

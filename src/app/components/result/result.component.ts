@@ -18,6 +18,8 @@ export class ResultComponent implements OnInit {
   ) {}
 
   country?: Country;
+  objectKeys = Object.keys;
+
   // previousURL?: string | null;
 
   ngOnInit(): void {

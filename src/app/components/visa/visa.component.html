@@ -1,8 +1,8 @@
-<div class="btn-group my-3">
-  <div class="dropdown">
+<div class="btn-group my-3 d-flex wrapper">
+  <div class="dropdown citizenship">
     Citizenship &emsp;&emsp;&emsp;
-    <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-      aria-expanded="false">
+    <button class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown"
+      aria-expanded="false" id="citizenship">
       {{citizenship}}
     </button>
     <ul class="dropdown-menu">
@@ -19,10 +19,10 @@
     </ul>
   </div>
 
-  <div class="dropdown ms-5">
+  <div class="dropdown destination">
     Travel Destination &emsp;&emsp;&emsp;
-    <button class="btn btn-outline-primary dropdown-toggled" type="button" data-bs-toggle="dropdown"
-      aria-expanded="false" [disabled]="!enableDestinationButton">
+    <button class="btn btn-outline-success dropdown-toggled" type="button" data-bs-toggle="dropdown"
+      aria-expanded="false" [disabled]="!enableDestinationButton" id="destination">
       {{travelDestination}}
     </button>
     <ul class="dropdown-menu">
@@ -38,15 +38,15 @@
       </li>
     </ul>
   </div>
-
-  <!-- <button class="ms-3 btn " type="submit" (click)="getDataByCode($event)">Search searchBox.value</button> -->
 </div>
 
-<div class="d-flex justify-content-evenly my-7" *ngIf="citizenship !== 'Specify your citizenship'">
-  <h2>Citizenship &emsp;&emsp;&emsp;<span class="badge bg-secondary ms-3">{{citizenship | uppercase}}</span></h2>
-  <h2 *ngIf="travelDestination !== 'Travel destination'">Travel Destination &emsp;&emsp;&emsp;<a
-      [routerLink]="['/results',travelDestinationCode]"><span class="badge bg-secondary ms-3">{{travelDestination |
-        uppercase}}</span></a></h2>
+<div class="d-flex justify-content-evenly my-7" *ngIf="citizenship !== 'Specify your citizenship'" id="travelInfo">
+  <h2><span class="info">Citizenship &emsp;&emsp;&emsp;</span><span class="badge bg-secondary ms-3">{{citizenship | uppercase}}</span></h2>
+  <h2 *ngIf="travelDestination !== 'Travel destination'"><span class="info">Travel Destination &emsp;&emsp;&emsp;</span>
+    <a [routerLink]="['/results',travelDestinationCode]">
+      <span class="badge bg-secondary ms-3">{{travelDestination | uppercase}}</span>
+    </a>
+  </h2>
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -59,14 +59,17 @@
 
 <div class="alert alert-info mt-2" role="alert"
   *ngIf="citizenship !== 'Specify your citizenship' && visaRequirementsData !== null">
-  <h3><svg class="bi flex-shrink-0 me-2 mb-1 ps-5" role="img" aria-label="Danger:" style="width: 30px; height: 30px;">
+  <h3 class="text-center">
+    <svg class="bi flex-shrink-0 me-2 mb-1" role="img" aria-label="Danger:" style="width: 30px; height: 30px;">
       <use xlink:href="#exclamation-triangle-fill"></use>
-    </svg>Before you start traveling, be sure to <a href="{{googleQuery}}" target="_blank" class="alert-link">check and
-      look into </a> additional information</h3>
+    </svg>
+    Before you start traveling, be sure to <a href="{{googleQuery}}" target="_blank" class="alert-link">check and
+      look into </a> additional information
+  </h3>
 </div>
 
 <div *ngIf="visaRequirementsData !== null; else googleBlock">
-  <table class="table mt-3">
+  <table class="table mt-3 text-break">
     <thead>
       <tr *ngFor="let country of visaRequirementsData | keyvalue: keepOrder; let i = index">
         <ng-container *ngIf="i === 0">

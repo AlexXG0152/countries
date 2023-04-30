@@ -3,6 +3,10 @@
   overflow-y: auto;
 }
 
+.destination {
+  margin-left: 150px;
+}
+
 table>thead>tr:nth-child(1)>th:nth-child(2) {
   min-width: 222px;
 }
@@ -13,4 +17,64 @@ table>thead>tr:nth-child(1)>th:nth-child(3) {
 
 table>thead>tr:nth-child(1)>th:nth-child(4) {
   min-width: 222px;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #citizenship {
+    margin-left: 49px;
+  }
+
+  .destination {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  #travelInfo {
+    flex-direction: column;
+  }
+
+  .info {
+    font-size: 24px;
+  }
+
+  #travelInfo>h2:nth-child(1)>span.info {
+    margin-right: 76px;
+  }
+
+  table>thead>tr:nth-child(1)>th:nth-child(1) {
+    min-width: 29px;
+  }
+
+  table>thead>tr:nth-child(1)>th:nth-child(2) {
+    min-width: 100px;
+  }
+
+  table>thead>tr:nth-child(1)>th:nth-child(3) {
+    min-width: 100px;
+  }
+
+  table>thead>tr:nth-child(1)>th:nth-child(4) {
+    min-width: 80px;
+  }
+
+  table>thead>tr:nth-child(1)>th:nth-child(5) {
+    min-width: 80px;
+  }
+
+  table>thead>tr:nth-child(1)>th:nth-child(6) {
+    min-width: 40px;
+  }
+
+  .table>:not(caption)>*>* {
+    padding: .05rem .05rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    font-size: 15px;
+  }
 }
