@@ -38,7 +38,7 @@ export class ResultComponent implements OnInit {
 
     if (id.length === 2) {
       this.getCountryInfoByCCA2(id);
-    } else {
+    } else if (id.length === 3) {
       this.getCountryInfoByCCA3(id);
     }
   }

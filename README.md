@@ -1,11 +1,7 @@
 # Countries
 
 Working example:
-https://deploy-preview-5--zingy-blancmange-2b30a1.netlify.app/map
-
-P.S. Some issues in router with navigation from map to country info on localhost in dev mode all works perfectly. 😉
-
-<img src="https://github.com/AlexXG0152/countries/blob/start-app/src/assets/Countries%20-%20DEMO.gif" width="1000"/>
+https://start-app--zingy-blancmange-2b30a1.netlify.app/map
 
 ## Development server
 

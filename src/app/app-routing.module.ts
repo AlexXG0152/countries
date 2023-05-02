@@ -10,12 +10,11 @@ const routes: Routes = [
     path: 'results',
     pathMatch: 'full',
     component: ResultsComponent,
-    // children: [{ path: ':id', component: ResultComponent }],
   },
-  { path: 'results/:id', pathMatch: 'full', component: ResultComponent },
+  { path: 'results/:id', component: ResultComponent },
   { path: 'map', pathMatch: 'full', component: MapComponent },
   { path: 'visa', pathMatch: 'full', component: VisaComponent },
-  { path: '', pathMatch: 'full', redirectTo: 'results' }, //
+  { path: '', pathMatch: 'full', redirectTo: 'results' },
   { path: '**', component: ResultsComponent },
 ];
 

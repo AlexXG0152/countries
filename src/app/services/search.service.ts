@@ -9,7 +9,9 @@ export class SearchService {
   private countriesUrl =
     'https://github.com/hengkiardo/restcountries/blob/master/resources/countriesV1.json';
 
-  private countriesJSON = '../../assets/countries.json';
+  // private countriesJSON = '../../assets/countries.json';
+  private countriesJSON =
+    'https://raw.githubusercontent.com/AlexXG0152/countries/start-app/src/assets/countries.json';
 
   public buttonClickSubject: BehaviorSubject<string> = new BehaviorSubject('');
 
@@ -37,7 +39,7 @@ export class SearchService {
     return this.http.get<Country[]>(this.countriesJSON).pipe(
       map((countries) =>
         countries.map((country) => {
-          return [country.name.common, country.cca3]
+          return [country.name.common, country.cca3];
         })
       )
     );
