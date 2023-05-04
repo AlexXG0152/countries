@@ -16,6 +16,7 @@ import { LoadScriptDirective } from './directives/load-script.directive';
 import { VisaComponent } from './components/visa/visa.component';
 import { ReplacePipe } from './pipes/replace.pipe';
 import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switcher.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switch
     MapComponent,
     VisaComponent,
     ThemeSwitcherComponent,
+    HomepageComponent,
     LoadScriptDirective,
     ReplacePipe,
   ],

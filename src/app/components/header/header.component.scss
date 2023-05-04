@@ -47,6 +47,11 @@
   stroke-width: 6;
 }
 
+.nav-link:hover,
+.navbar-brand {
+  font-weight: bold;
+}
+
 @media (min-width: 991px) {
   .navbar-toggler {
     display: none;
