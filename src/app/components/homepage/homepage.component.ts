@@ -9,7 +9,7 @@ import { IPService } from 'src/app/services/ip.service';
 })
 export class HomepageComponent implements OnInit {
   ipAddress = '';
-  country_code2: any;
+  country_code2 = '' || 'BY'
 
   constructor(private IPService: IPService) {}
 

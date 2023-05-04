@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: 'visa', pathMatch: 'full', component: VisaComponent },
   { path: 'home', pathMatch: 'full', component: HomepageComponent },
   { path: '', pathMatch: 'full', component: HomepageComponent },
-  { path: '**', component: ResultsComponent },
+  { path: '**', component: HomepageComponent },
 ];
 
 @NgModule({

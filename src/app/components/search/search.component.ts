@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { SearchService } from 'src/app/services/search.service';
 
 @Component({
@@ -9,12 +8,11 @@ import { SearchService } from 'src/app/services/search.service';
   styleUrls: ['./search.component.scss'],
 })
 export class SearchComponent {
-  constructor(private router: Router, private searhService: SearchService) {}
+  constructor(private router: Router, private searchService: SearchService) {}
 
   search(text: any) {
-    this.searhService.buttonClickSubject.next(text.trim());
+    this.searchService.buttonClickSubject.next(text.trim());
     this.router.navigate([`results`]);
-
     // return text.pipe(debounceTime(500), distinctUntilChanged());
   }
 }

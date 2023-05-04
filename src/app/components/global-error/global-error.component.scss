@@ -1,0 +1,15 @@
+.error {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: red;
+  color: white;
+  position: relative;
+}
+
+.button {
+  background-color: red;
+  border: 0px;
+  right: 0;
+  text-transform: uppercase;
+}

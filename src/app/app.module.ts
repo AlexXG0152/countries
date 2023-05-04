@@ -17,6 +17,7 @@ import { VisaComponent } from './components/visa/visa.component';
 import { ReplacePipe } from './pipes/replace.pipe';
 import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switcher.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { GlobalErrorComponent } from './components/global-error/global-error.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
     VisaComponent,
     ThemeSwitcherComponent,
     HomepageComponent,
+    GlobalErrorComponent,
     LoadScriptDirective,
     ReplacePipe,
   ],
