@@ -1,0 +1,11 @@
+.letter {
+  width: 41px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  color: black;
+}
+
+@media screen and (min-width: 614px) and (max-width: 1200px) {}

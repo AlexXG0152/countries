@@ -1,0 +1,1184 @@
+[
+    {
+        "Country": "Afghanistan",
+        "Visa requirement": "Visa required[10]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Albania",
+        "Visa requirement": "Visa not required[11]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Algeria",
+        "Visa requirement": "Visa required[12]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Andorra",
+        "Visa requirement": "Visa not required[13]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Angola",
+        "Visa requirement": "Visa required[14]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Antigua and Barbuda",
+        "Visa requirement": "Visa not required[15]",
+        "Allowed stay": "30 days[16]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Argentina",
+        "Visa requirement": "Visa not required[17][18]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Armenia",
+        "Visa requirement": "Visa not required[19]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 365 day period"
+    },
+    {
+        "Country": "Australia",
+        "Visa requirement": "Visa required[20]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "May apply online (Online Visitor e600 visa).[21]"
+    },
+    {
+        "Country": "Austria",
+        "Visa requirement": "Visa not required[22]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Azerbaijan",
+        "Visa requirement": "eVisa / Visa on arrival[23]",
+        "Allowed stay": "30 days[24]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Bahamas",
+        "Visa requirement": "Visa required[25]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Bahrain",
+        "Visa requirement": "eVisa / Visa on arrival[26]",
+        "Allowed stay": "2 weeks",
+        "Notes (excluding departure fees)": "May apply online.[27]"
+    },
+    {
+        "Country": "Bangladesh",
+        "Visa requirement": "Visa on arrival[28]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Barbados",
+        "Visa requirement": "Visa not required[29]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Belarus",
+        "Visa requirement": "Visa not required[30]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "For a maximum total stay of 90 days within any year period"
+    },
+    {
+        "Country": "Belgium",
+        "Visa requirement": "Visa not required[31]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Belize",
+        "Visa requirement": "Visa required[32]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Benin",
+        "Visa requirement": "eVisa / Visa on arrival[33][34]",
+        "Allowed stay": "30 days / 8 days",
+        "Notes (excluding departure fees)": "Must have an international vaccination certificate."
+    },
+    {
+        "Country": "Bhutan",
+        "Visa requirement": "Visa required[35]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Bolivia",
+        "Visa requirement": "Visa on arrival[36]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Bosnia and Herzegovina",
+        "Visa requirement": "Visa not required[37]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 6-month period"
+    },
+    {
+        "Country": "Botswana",
+        "Visa requirement": "Visa required[38]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Brazil",
+        "Visa requirement": "Visa not required[39]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Brunei",
+        "Visa requirement": "Visa not required[40]",
+        "Allowed stay": "14 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Bulgaria",
+        "Visa requirement": "Visa not required[41]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period"
+    },
+    {
+        "Country": "Burkina Faso",
+        "Visa requirement": "Visa required[42]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Burundi",
+        "Visa requirement": "Visa required[43]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Cambodia",
+        "Visa requirement": "eVisa / Visa on arrival[44]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "May apply online.[45]"
+    },
+    {
+        "Country": "Cameroon",
+        "Visa requirement": "Visa required[46]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Canada",
+        "Visa requirement": "Visa required[47]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Visa is not required for permanent residents of the United States. An eTA is required by permanent residents of USA if travelling by air."
+    },
+    {
+        "Country": "Cape Verde",
+        "Visa requirement": "Visa not required[48]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Central African Republic",
+        "Visa requirement": "Visa required[49]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Chad",
+        "Visa requirement": "Visa required[50]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Chile",
+        "Visa requirement": "Visa not required[51]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Mainland China",
+        "Visa requirement": "Home Return Permit travel (Freedom of movement)",
+        "Allowed stay": "Until permit expiry",
+        "Notes (excluding departure fees)": "Holders of Mainland Travel Permit for Hong Kong and Macao Residents are able to freely enter Mainland China for all purposes within the validity of their travel document. Most permits for adults are valid for 10 years; minors under 18 years old are issued permits valid for five years. Entry to Mainland China cannot be on a Macau SAR passport. However, all eligible for Macau SAR passport is also able to apply for a Home Return Permit, allowing the holder to enter and stay in Mainland China until its expiry. Issuance of the Home Return Permit is not automatic for all MSAR passport holders and is at the sole discretion of the Bureau of Exit and Entry Administration of the Ministry of Public Security. Those residing in the Mainland for more than six months may apply for the Residence Permit for Hong Kong, Macao, and Taiwan Residents."
+    },
+    {
+        "Country": "Colombia",
+        "Visa requirement": "Visa required[52]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Comoros",
+        "Visa requirement": "Visa on arrival[53]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Republic of the Congo",
+        "Visa requirement": "Visa required[54]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Democratic Republic of the Congo",
+        "Visa requirement": "Visa required[55]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Costa Rica",
+        "Visa requirement": "Visa required[56]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "May have a valid US visa to enter Costa Rica without visa up to 30 days"
+    },
+    {
+        "Country": "Co\u0302te d'Ivoire",
+        "Visa requirement": "eVisa[57]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": "eVisa holders must arrive via Port Bouet Airport."
+    },
+    {
+        "Country": "Croatia",
+        "Visa requirement": "Visa not required[58]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Cuba",
+        "Visa requirement": "Tourist card required[59]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Cyprus",
+        "Visa requirement": "Visa not required[60]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period"
+    },
+    {
+        "Country": "Czech Republic",
+        "Visa requirement": "Visa not required[61]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Denmark",
+        "Visa requirement": "Visa not required[62]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Djibouti",
+        "Visa requirement": "eVisa[63]",
+        "Allowed stay": "31 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Dominica",
+        "Visa requirement": "Visa not required[64]",
+        "Allowed stay": "180 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Dominican Republic",
+        "Visa requirement": "Visa not required[65]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Ecuador",
+        "Visa requirement": "Visa not required[66]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Egypt",
+        "Visa requirement": "Visa not required[67]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "El Salvador",
+        "Visa requirement": "Visa required[68]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Equatorial Guinea",
+        "Visa requirement": "Visa required[69]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Eritrea",
+        "Visa requirement": "Visa required[70]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Estonia",
+        "Visa requirement": "Visa not required[71]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Eswatini",
+        "Visa requirement": "Visa required[72]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Ethiopia",
+        "Visa requirement": "eVisa / Visa on arrival[73][74]",
+        "Allowed stay": "up to 90 days",
+        "Notes (excluding departure fees)": "Visa on arrival is obtainable only at Addis Ababa Bole International Airport.[75] eVisa holders must arrive via Addis Ababa Bole International Airport. eVisas are available for 30 or 90 days.[76]"
+    },
+    {
+        "Country": "Fiji",
+        "Visa requirement": "Visa not required[77]",
+        "Allowed stay": "4 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Finland",
+        "Visa requirement": "Visa not required[78]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "France",
+        "Visa requirement": "Visa not required[79]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Gabon",
+        "Visa requirement": "eVisa[80]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Electronic visa holders must arrive via Libreville International Airport."
+    },
+    {
+        "Country": "Gambia",
+        "Visa requirement": "Visa not required[81]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Georgia",
+        "Visa requirement": "eVisa[82]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Germany",
+        "Visa requirement": "Visa not required[83]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Ghana",
+        "Visa requirement": "Visa required[84]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Greece",
+        "Visa requirement": "Visa not required[85]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Grenada",
+        "Visa requirement": "Visa not required[86]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": "Beginning on 1 December 2020, all travellers to Grenada will be required to complete an online application in order to receive a Pure Safe Travel Authorization Certificate to enter Grenada.[87]"
+    },
+    {
+        "Country": "Guatemala",
+        "Visa requirement": "Visa required[88]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Guinea",
+        "Visa requirement": "eVisa[89]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Guinea-Bissau",
+        "Visa requirement": "eVisa / Visa on arrival[90]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "May apply online[91]"
+    },
+    {
+        "Country": "Guyana",
+        "Visa requirement": "Visa required[92]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Haiti",
+        "Visa requirement": "Visa not required[93]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Honduras",
+        "Visa requirement": "Visa required[94]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "No visa required if holding valid visa of US, Canada, or Schengen member state"
+    },
+    {
+        "Country": "Hungary",
+        "Visa requirement": "Visa not required[95]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Iceland",
+        "Visa requirement": "Visa not required[96]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "India",
+        "Visa requirement": "e-Visa[97]",
+        "Allowed stay": "60 days",
+        "Notes (excluding departure fees)": "e-Visa holders must arrive via 26 designated airports[Note 1] or 3 designated seaports.[Note 2][98] An Indian e-Tourist Visa can only be obtained twice in one calendar year.[citation needed]"
+    },
+    {
+        "Country": "Indonesia",
+        "Visa requirement": "Visa on arrival[99]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Iran",
+        "Visa requirement": "Visa not required[100]",
+        "Allowed stay": "21 days[101]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Iraq",
+        "Visa requirement": "Visa on arrival[102]",
+        "Allowed stay": "60 days[103]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Ireland",
+        "Visa requirement": "Visa not required[104]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Israel",
+        "Visa requirement": "Visa not required[105]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "Entry refused by certain Muslim countries due to Arab league boycott of Israel if evidence of travel to Israel"
+    },
+    {
+        "Country": "Italy",
+        "Visa requirement": "Visa not required[106]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Jamaica",
+        "Visa requirement": "Visa required[107]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Japan",
+        "Visa requirement": "Visa not required[108]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Jordan",
+        "Visa requirement": "Visa on arrival[109]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Kazakhstan",
+        "Visa requirement": "Visa required[110]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Kenya",
+        "Visa requirement": "eVisa / Visa on arrival[111]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Kiribati",
+        "Visa requirement": "Visa not required[112]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "North Korea",
+        "Visa requirement": "Visa required[113]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "South Korea",
+        "Visa requirement": "Visa not required[114]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Kuwait",
+        "Visa requirement": "Visa required[115]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Kyrgyzstan",
+        "Visa requirement": "eVisa[116]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Electronic visa holders must arrive via Manas International Airport or Osh Airport or through land crossings with China (at Irkeshtam and Torugart), Kazakhstan (at Ak-jol, Ak-Tilek, Chaldybar, Chon-Kapka), Tajikistan (at Bor-Dobo, Kulundu, Kyzyl-Bel) and Uzbekistan (at Dostuk).[117]"
+    },
+    {
+        "Country": "Laos",
+        "Visa requirement": "eVisa / Visa on arrival[118]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "Visa on arrival is available at Luangphabang, Pakse, Savannakhet and Vientiane international airports, the 4 Thai-Lao Friendship Bridges,[Note 3] 13 border crossings,[Note 4] and Tanalaeng train station in Vientiane.[119] Visa on arrival facilities will be gradually phased out starting in January 2020.[120] eVisa may be used to enter Laos through Wattay International Airport and the First Thai\u2013Lao Friendship Bridge.[citation needed] The Lalai, Lantui, Meuang mom, Pakxan, and Phoudou border crossings are open only to visa holders.[citation needed] Visa on arrival is extendable up to 60 days.[citation needed]"
+    },
+    {
+        "Country": "Latvia",
+        "Visa requirement": "Visa not required[121]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Lebanon",
+        "Visa requirement": "Visa on arrival[122]",
+        "Allowed stay": "1 month",
+        "Notes (excluding departure fees)": "1 month extendable for 2 additional months Granted free of charge at Beirut International Airport or any other port of entry if there is no Israeli visa or seal, holding a telephone number, an address in Lebanon, and a non refundable return or circle trip ticket."
+    },
+    {
+        "Country": "Lesotho",
+        "Visa requirement": "eVisa[123]",
+        "Allowed stay": "44 days[124]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Liberia",
+        "Visa requirement": "Visa required[125]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Libya",
+        "Visa requirement": "Visa required[126]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Liechtenstein",
+        "Visa requirement": "Visa not required[127]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Lithuania",
+        "Visa requirement": "Visa not required[128]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Luxembourg",
+        "Visa requirement": "Visa not required[129]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Madagascar",
+        "Visa requirement": "eVisa / Visa on arrival[130]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Malawi",
+        "Visa requirement": "Visa on arrival[131]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Malaysia",
+        "Visa requirement": "Visa not required[132]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Maldives",
+        "Visa requirement": "Visa on arrival[133]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Mali",
+        "Visa requirement": "Visa not required[134]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Malta",
+        "Visa requirement": "Visa not required[135]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Marshall Islands",
+        "Visa requirement": "Visa required[136]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Mauritania",
+        "Visa requirement": "Visa on arrival[137]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Available at Nouakchott\u2013Oumtounsy International Airport."
+    },
+    {
+        "Country": "Mauritius",
+        "Visa requirement": "Visa not required[138]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Mexico",
+        "Visa requirement": "Visa not required[139]",
+        "Allowed stay": "180 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Micronesia",
+        "Visa requirement": "Visa not required[140]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Moldova",
+        "Visa requirement": "Visa not required[141]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period"
+    },
+    {
+        "Country": "Monaco",
+        "Visa requirement": "Visa not required[142]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Mongolia",
+        "Visa requirement": "Visa not required[143]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Montenegro",
+        "Visa requirement": "Visa not required[144]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Morocco",
+        "Visa requirement": "Visa not required[145]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Mozambique",
+        "Visa requirement": "Visa on arrival[146]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Myanmar",
+        "Visa requirement": "Visa not required[147]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Namibia",
+        "Visa requirement": "Visa not required[148]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Nauru",
+        "Visa requirement": "Visa required[149]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Nepal",
+        "Visa requirement": "Free visa on arrival[150]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Netherlands",
+        "Visa requirement": "Visa not required[151]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "New Zealand",
+        "Visa requirement": "Electronic Travel Authority[152]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": "International Visitor Conservation and Tourism Levy must be paid upon requesting an Electronic Travel Authority.[153] Holders of an Australian Permanent Resident Visa or Resident Return Visa may be granted a New Zealand Resident Visa on arrival permitting indefinite stay (pursuant to the Trans-Tasman Travel Arrangement), subject to meeting character requirements and obtaining an Electronic Travel Authority prior to departure.[154] Such travellers are not required to pay the International Visitor Conservation and Tourism Levy.[153]"
+    },
+    {
+        "Country": "Nicaragua",
+        "Visa requirement": "Visa not required[155]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Niger",
+        "Visa requirement": "Visa required[156]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Nigeria",
+        "Visa requirement": "Visa required[157]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "North Macedonia",
+        "Visa requirement": "Visa not required[158]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Norway",
+        "Visa requirement": "Visa not required[159]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Oman",
+        "Visa requirement": "eVisa[160]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Pakistan",
+        "Visa requirement": "Online Visa[161]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Palau",
+        "Visa requirement": "Visa on arrival[162]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Panama",
+        "Visa requirement": "Visa required[163]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Papua New Guinea",
+        "Visa requirement": "eVisa / Free visa on arrival[164]",
+        "Allowed stay": "60 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Paraguay",
+        "Visa requirement": "Visa required[165]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Peru",
+        "Visa requirement": "Visa required[166]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Philippines",
+        "Visa requirement": "Visa not required[167]",
+        "Allowed stay": "14 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Poland",
+        "Visa requirement": "Visa not required[168]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days regardless of time spent in other Schengen countries[169]"
+    },
+    {
+        "Country": "Portugal",
+        "Visa requirement": "Visa not required[170]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Qatar",
+        "Visa requirement": "eVisa / Visa on arrival[171]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "Available at Hamad International Airport. eVisa is also available."
+    },
+    {
+        "Country": "Romania",
+        "Visa requirement": "Visa not required[172]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period"
+    },
+    {
+        "Country": "Russia",
+        "Visa requirement": "Visa not required[173]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Rwanda",
+        "Visa requirement": "eVisa / Visa on arrival[174]",
+        "Allowed stay": "30 days[175]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Saint Kitts and Nevis",
+        "Visa requirement": "Visa not required[176]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Saint Lucia",
+        "Visa requirement": "Visa on arrival[177]",
+        "Allowed stay": "6 weeks",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Saint Vincent and the Grenadines",
+        "Visa requirement": "Visa not required[178]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Samoa",
+        "Visa requirement": "Visa not required[179]",
+        "Allowed stay": "30 days[180]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "San Marino",
+        "Visa requirement": "Visa not required[181]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Sa\u0303o Tome\u0301 and Pri\u0301ncipe",
+        "Visa requirement": "eVisa / Visa on arrival[182]",
+        "Allowed stay": "15 days[183][184]",
+        "Notes (excluding departure fees)": "No visa required if holding a valid US visa."
+    },
+    {
+        "Country": "Saudi Arabia",
+        "Visa requirement": "eVisa / Visa on arrival[185][186]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Senegal",
+        "Visa requirement": "Visa required[187]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Serbia",
+        "Visa requirement": "Visa not required[188]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period"
+    },
+    {
+        "Country": "Seychelles",
+        "Visa requirement": "Visa not required[189]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Sierra Leone",
+        "Visa requirement": "Visa on arrival[190]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Singapore",
+        "Visa requirement": "Visa not required[191]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Slovakia",
+        "Visa requirement": "Visa not required[192]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Slovenia",
+        "Visa requirement": "Visa not required[193]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Solomon Islands",
+        "Visa requirement": "Visa required[194]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Somalia",
+        "Visa requirement": "Visa on arrival[195]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "Available at Bosaso Airport, Galcaio Airport and Mogadishu Airport."
+    },
+    {
+        "Country": "South Africa",
+        "Visa requirement": "Visa not required[196]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "South Sudan",
+        "Visa requirement": "Electronic Visa[197]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Obtainable online[198] Printed visa authorization must be presented at the time of travel[198]"
+    },
+    {
+        "Country": "Spain",
+        "Visa requirement": "Visa not required[199]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Sri Lanka",
+        "Visa requirement": "eVisa / Visa on arrival[200]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "Must hold return or onward ticket.[201]"
+    },
+    {
+        "Country": "Sudan",
+        "Visa requirement": "Visa required[202]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Suriname",
+        "Visa requirement": "eVisa[203]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Sweden",
+        "Visa requirement": "Visa not required[204]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Switzerland",
+        "Visa requirement": "Visa not required[205]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": "90 days within any 180 day period in the Schengen Area"
+    },
+    {
+        "Country": "Syria",
+        "Visa requirement": "Visa required[206]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Tajikistan",
+        "Visa requirement": "eVisa[207]",
+        "Allowed stay": "45 days",
+        "Notes (excluding departure fees)": "45 days within any 90 days period"
+    },
+    {
+        "Country": "Tanzania",
+        "Visa requirement": "Visa not required[208]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Thailand",
+        "Visa requirement": "Visa not required[209]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Timor-Leste",
+        "Visa requirement": "Visa on arrival[210]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Togo",
+        "Visa requirement": "Visa on arrival[211]",
+        "Allowed stay": "7 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Tonga",
+        "Visa requirement": "Free visa on arrival[212]",
+        "Allowed stay": "31 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Trinidad and Tobago",
+        "Visa requirement": "Visa required[213]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Tunisia",
+        "Visa requirement": "Visa required[214]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Visa not required for tourist groups organised by a travel agency."
+    },
+    {
+        "Country": "Turkey",
+        "Visa requirement": "Visa not required[215]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Turkmenistan",
+        "Visa requirement": "Visa required[216]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Tuvalu",
+        "Visa requirement": "Visa on arrival[217]",
+        "Allowed stay": "1 month",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Uganda",
+        "Visa requirement": "eVisa / Visa on arrival[218]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "May apply online.[219]"
+    },
+    {
+        "Country": "Ukraine",
+        "Visa requirement": "eVisa[220]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "Available at Kyiv Boryspil Airport, Kyiv International Airport (Zhuliany) and Odesa International Airport.[221] For business or tourism purposes"
+    },
+    {
+        "Country": "United Arab Emirates",
+        "Visa requirement": "Visa not required[222]",
+        "Allowed stay": "30 days[223]",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "United Kingdom",
+        "Visa requirement": "Visa not required[224]",
+        "Allowed stay": "6 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "United States",
+        "Visa requirement": "Visa required[225]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": "Macau citizens who do receive a visa are normally issued with 10-years multiple-entry combination B1/B2 visas, and each entry can stay for a maximum of 6 months (the period of stay is subject to the border immigration officer)"
+    },
+    {
+        "Country": "Uruguay",
+        "Visa requirement": "Visa not required[226]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Uzbekistan",
+        "Visa requirement": "eVisa[227][228]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": "5-day visa-free transit at the international airports if holding a confirmed onward ticket for a flight to a third country.[229]"
+    },
+    {
+        "Country": "Vanuatu",
+        "Visa requirement": "Visa not required[230]",
+        "Allowed stay": "30 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Vatican City",
+        "Visa requirement": "Visa not required[231]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Venezuela",
+        "Visa requirement": "Visa required[232]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Vietnam",
+        "Visa requirement": "eVisa / Visa on arrival[233]",
+        "Allowed stay": "90 days",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Yemen",
+        "Visa requirement": "Visa required[234]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Zambia",
+        "Visa requirement": "eVisa[235]",
+        "Allowed stay": null,
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Zimbabwe",
+        "Visa requirement": "Visa on arrival[236]",
+        "Allowed stay": "3 months",
+        "Notes (excluding departure fees)": null
+    },
+    {
+        "Country": "Jurisdiction - China (Mainland)",
+        "Visa requirement": "With Home Return Permit (Freedom of movement)[6]",
+        "Allowed stay": null,
+        "Notes": "Holders of Mainland Travel Permit for Hong Kong and Macao Residents are able to freely enter Mainland China for all purposes within the validity of their travel document. Most permits for adults are valid for 10 years ; minors under 18 years old are issued permits valid for five years."
+    },
+    {
+        "Country": "Jurisdiction - Hong Kong",
+        "Visa requirement": "Visa not required[7]",
+        "Allowed stay": null,
+        "Notes": "Visa free for a period of 180 days for holders of Macau Permanent Resident Identity Cards. Visa free for 7 days for passengers in transit to a third country holding MSAR passports."
+    },
+    {
+        "Country": "Jurisdiction - Taiwan",
+        "Visa requirement": "Entry permit on arrival or Online entry permit[8]",
+        "Allowed stay": null,
+        "Notes": "Entry Permit on arrival for NT$300. Free online registration prior to arrival is also available. Applicable to those who were born in Hong Kong or Macau, or those who have previously entered Taiwan at least once as a permanent resident of Macau. Not applicable to MSAR passport holders with nationality or citizenship of another country.[9]"
+    }
+]

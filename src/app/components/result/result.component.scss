@@ -1,0 +1,16 @@
+.flag {
+  // background-color: #f8f9fa;
+  background-color: rgba(228, 228, 228, 0.9);
+}
+
+.list-group-item {
+  border: 0;
+}
+
+tr:nth-child(1) > th {
+  width: 50px;
+}
+
+tr:nth-child(1) > td:nth-child(2) {
+  width: 180px;
+}
